@@ -1,0 +1,421 @@
+.beranda-guest {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: flex-start;
+    position: relative;
+    background-color: #f5f3e9;
+}
+
+.beranda-guest .dashboard-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    padding: 80px 160px;
+    position: relative;
+    flex: 1;
+    align-self: stretch;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.beranda-guest .hero-section {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.beranda-guest .text-wrapper-5 {
+    align-self: stretch;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 800;
+    color: #2d2d2d;
+    font-size: 56px;
+    text-align: center;
+    letter-spacing: -0.84px;
+    position: relative;
+    margin-top: -1px;
+    line-height: normal;
+}
+
+.beranda-guest .p {
+    position: relative;
+    align-self: stretch;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    color: #8f8d7f;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 32px;
+}
+
+.beranda-guest .CTA-group {
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.beranda-guest .primary-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 28px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #bec570;
+    border-radius: 6px;
+    border: 1px solid;
+    border-color: #2d2d2d;
+}
+
+.beranda-guest .secondary-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 28px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 6px;
+    border: 1px solid;
+    border-color: #2d2d2d;
+}
+
+.beranda-guest .text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    color: #2d2d2d;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.beranda-guest .line {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 1px;
+    object-fit: cover;
+}
+
+.beranda-guest .recent-section {
+    flex-direction: column;
+    gap: 28px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.beranda-guest .div-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.beranda-guest .text-wrapper-7 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    color: #2d2d2d;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.beranda-guest .text-wrapper-8 {
+    position: relative;
+    width: fit-content;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    color: #838f00;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.beranda-guest .recent-grid {
+    gap: 24px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.beranda-guest .journal-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 24px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: #fcfaf4;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #e8e4d5;
+}
+
+.beranda-guest .author-area {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.beranda-guest .img {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+}
+
+.beranda-guest .text-wrapper-9 {
+    position: relative;
+    width: fit-content;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    color: #2d2d2d;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.beranda-guest .text-wrapper-10 {
+    position: relative;
+    width: fit-content;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    color: #8f8d7f;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.beranda-guest .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.beranda-guest .text-wrapper-11 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    color: #2d2d2d;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.beranda-guest .text-wrapper-12 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    color: #666459;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.beranda-guest .tags {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 6px 6px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.beranda-guest .tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 10px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #dadeac;
+    border-radius: 4px;
+}
+
+.beranda-guest .text-wrapper-13 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 500;
+    color: #2d2d2d;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.beranda-guest .footer-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 32px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    margin-bottom: -58px;
+    background-color: #fcfaf4;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #e8e4d5;
+}
+
+.beranda-guest .text-wrapper-14 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    color: #2d2d2d;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.beranda-guest .text-wrapper-15 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    color: #8f8d7f;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+
+/* =========================
+   Interactive States
+   ========================= */
+
+.beranda-guest a {
+    color: inherit;
+}
+
+.beranda-guest .primary-button,
+.beranda-guest .secondary-button,
+.beranda-guest .text-wrapper-8 {
+    cursor: pointer;
+}
+
+.beranda-guest .primary-button:hover {
+    background-color: #c8cf82;
+}
+
+.beranda-guest .secondary-button:hover {
+    background-color: #ebe8dc;
+}
+
+.beranda-guest .primary-button:focus-visible,
+.beranda-guest .secondary-button:focus-visible,
+.beranda-guest .text-wrapper-8:focus-visible {
+    outline: 2px solid #4a90e2;
+    outline-offset: 3px;
+}
+
+
+/* =========================
+   Responsive
+   ========================= */
+
+@media (max-width: 900px) {
+    .beranda-guest .dashboard-wrapper {
+        padding-right: 64px;
+        padding-left: 64px;
+    }
+
+    .beranda-guest .hero-section {
+        width: min(800px, 100%);
+    }
+}
+
+@media (max-width: 700px) {
+    .beranda-guest .dashboard-wrapper {
+        gap: 40px;
+        padding: 56px 24px;
+    }
+
+    .beranda-guest .text-wrapper-5 {
+        font-size: 44px;
+    }
+
+    .beranda-guest .p {
+        font-size: 17px;
+        line-height: 28px;
+    }
+
+    .beranda-guest .recent-grid {
+        flex-direction: column;
+    }
+
+    .beranda-guest .journal-card {
+        width: 100%;
+    }
+
+    .beranda-guest .footer-banner {
+        margin-bottom: -34px;
+        padding: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .beranda-guest .CTA-group {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .beranda-guest .primary-button,
+    .beranda-guest .secondary-button {
+        width: 100%;
+    }
+
+    .beranda-guest .text-wrapper-7 {
+        font-size: 21px;
+    }
+}
